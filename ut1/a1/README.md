@@ -33,7 +33,7 @@ Bajamos al final de la pagina y nos encontraremos con el apartado de **Certifica
 
 ![certif](./img/004.png)
 
-Dentro de este apartado podemos las siguientes opciones.
+Dentro de este apartado podemos ver las siguientes opciones.
 
 ![certif](./img/005.png)
 
@@ -41,25 +41,24 @@ Dentro de este apartado podemos las siguientes opciones.
 
 * Cortafuegos bien configurado
 * Inspeccionar las fuentes de las que provienen las descargas y mensajes que le llegan al usuario
-* Acceder a sitios seguros (**protocolo https**)
+* Mirar que los sitios sean seguros (**protocolo https**).
 
 4. Pon un ejemplo de cada una de las siguientes amenazas:
   1.  Interrupción.
 
-    Un recurso del sistema es destruido o se vuelve no disponible. Este es un ataque contra la disponibilidad. Ejemplos de este ataque son la destrucción de un elemento hardware, como un disco duro, cortar una línea de comunicación o deshabilitar el sistema de gestión de ficheros
+    Ataque para tumbar un servicio, por ejemplo muchas solicitudes de ping seguidas de paquetes muy grandes.
 
   2.  Interceptación.
 
-    Una entidad no autorizada consigue acceso a un recurso. Este es un ataque contra la confidencialidad. La entidad no autorizada podría ser una persona, un programa o un ordenador. Ejemplos de este ataque son pinchar una línea para hacerse con datos que circulen por la red y la copia ilícita de ficheros o programas (intercepción de datos), o bien la lectura de las cabeceras de paquetes para desvelar la identidad de uno o más de los usuarios implicados en la comunicación observada ilegalmente (intercepción de identidad)
-
+    El uso de una "piña" para captar las ip y las mac de dispositivos móviles.
 
   3.  Modificación.
 
-    La modificación se da cuando un virus se introduce al sistema y modifica archivos, de manera que queden inservibles, ya sea encriptándolos o directamente borrandolos
+    Un virus que se ejecuta en el ordenador de la persona y modifica el equipo para que no muestre que se está ejecutando como proceso.
 
   4.  Fabricación.
 
-    Cuando un pc es infectado y el virus empieza a reproducirse para recrearse a sí mismo
+    Añadir registros a un archivo.
 
 5. Investiga en Internet y enumera tres sistemas de control de acceso para personas.
 
@@ -71,11 +70,37 @@ Dentro de este apartado podemos las siguientes opciones.
 
 6. Describe brevemente las partes más importantes de las que consta un grupo electrógeno.
 
+* **Motor**: Genera fuerza mecánica para que el rotor del generador eléctrico funcione.
 
+* **Regulador de velocidad**: La fuerza mecánica del motor de combustión se adecúa con un alternador. El objetivo es poder garantizar que la velocidad del motor sea la adecuada.
+
+* **Motor de arranque**: Sistema encargado de iniciar la máquina de combustión.
+
+* **Sistema de refrigeración**: Compuesto de un radiador y de un ventilador, su objetivo es reducir la temperatura del motor del equipo electrógeno.
+
+* **Filtro de aire**: Se asegura de que el aire no tenga impurezas.
+
+* **Aislador de vibraciones**: Debido a que son máquinas muy grandes es necesario reducir las vibraciones al mínimo, además de que también se encarga de recudir el ruido generado por la misma.
+
+* **Panel de control**: Controla el funcionamiento del grupo electrónico.
 
 7. Investiga en qué consiste la tecnología de los “nanotubos” y su aplicación a la construcción de discos duros.
 
+La construcción de memorias basada en nanotubos de carbono presenta una serie de ventajas asombrosas, con respecto a las memorias actuales:
 
+  * Mayor velocidad de lectura y escritura
+
+  * Alta fiabilidad: es capaz de almacenar datos durante 1000 años a temperaturas de 85 grados Celsius, y durante 10 años a 300 grados Celsius.
+
+  * Bajo consumo: en modo reposo tiene un consumo de energía cercano a cero.
+
+  * Escalable: en el futuro podrá fabricarse con tecnología inferior a los 5 nm (nanómetros).
+
+  * Actualmente los chips más avanzados utilizan tecnología de entre 14 y 20 nm.
+
+  * Elevada duración: en las pruebas ha resistido más ciclos de escritura que las actuales memorias Flash.
+
+  * Bajo coste: resulta barata y fácil de fabricar.
 
 8. ¿Cuántas claves serían necesarias para que 3 personas se intercambiaran información utilizando cifrado simétrico? ¿Y si fuesen 4 personas?
 
