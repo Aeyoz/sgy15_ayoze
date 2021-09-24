@@ -7,13 +7,19 @@
 
 *`https://howsecureismypassword.net/`*
 
-###### Contraseña a utilizar
+###### Contraseñas a utilizar
 
-*`BullSH1T++`*
+Contraseña de 3 letras minusculas:
 
-###### Resultado
+**ala**
 
 ![passwd](./img/001.png)
+
+Contraseña de caracteres especiales:
+
+**/¬\ÑV_€**
+
+![passwd](./img/001-1.png)
 
 2. Describe detalladamente donde se pueden ver los certificados digitales que hay instalados en un navegador.
 
@@ -112,6 +118,16 @@ La construcción de memorias basada en nanotubos de carbono presenta una serie d
 
 9. Describe detalladamente cómo conseguir un certificado digital para una persona jurídica.
 
+Para obtener un certificado digital para una persona jurídica se debe de seguir determinados pasos:
 
+* Se debe de realizar el certificado en el mismo ordenador durante todo el proceso y se debe de hacer por los navegadores Mozilla Firefox o Internet Exlorer
+
+* El certificado tiene un coste de 14 €. Para solicitar el mismo se debe de ir a la siguiente página y rellenar un formulario en el que se pedirán documentos como el NIF de la entidad representada, e-mail y su confirmación además de la longitud de la clave.
+
+* Se nos otorgará un código con el que deberemos de acudir a las oficinas de la Agencia Estatal de Administración Tributaria  de la Comunidad Foral de Navarra y acreditar nuestra identidad.
+
+* Ya en Navarra acreditamos nuestra identidad y esperamos un par de días a que nos llegue un correo con una factura y nuestro codigo de solicitud, a partir de aqui ya podemos descargar nuestro certificado.
+
+* Es recomendable hacer una copia de seguridad de nuestro certificado.
 
 10. Descarga la herramienta The Forensic ToolKit, instálala en tu equipo y ejecútala. Describe la salida de un comando.
