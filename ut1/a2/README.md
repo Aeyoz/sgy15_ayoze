@@ -6,6 +6,7 @@ Descargamos Duplicati y ejecutamos el comando ```dpkg -i``` para poder instalar 
 
 Pero nos da un error, para solucionarlo deberemos de arreglar las licencias que hayan sido incumplidas.
 
+![imagen](./img/019.png)
 
 Para esto utilizamos los siguientes comandos.
 
@@ -15,7 +16,7 @@ Para esto utilizamos los siguientes comandos.
 
 ![imagen](./img/018.png)
 
-![imagen](./img/020.png)
+Despues de esto podemos instalar Duplicati y empezar a hacer Back Ups.
 
 ### Configuracion de Duplicati
 
