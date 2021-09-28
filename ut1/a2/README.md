@@ -4,8 +4,6 @@
 
 Descargamos Duplicati y ejecutamos el comando ```dpkg -i``` para poder instalar este paquete.
 
-![imagen](./img/020.png)
-
 Pero nos da un error, para solucionarlo deberemos de arreglar las licencias que hayan sido incumplidas.
 
 
@@ -17,7 +15,7 @@ Para esto utilizamos los siguientes comandos.
 
 ![imagen](./img/018.png)
 
-![imagen](./img/019.png)
+![imagen](./img/020.png)
 
 ### Configuracion de Duplicati
 
@@ -71,6 +69,14 @@ Nos vamos a Duplicati a la seccion de Restaurar
 
 ![imagen](./img/001.png)
 
-Elegimos los 2 ficheros a restaurara
+Elegimos los 2 ficheros a restaurar.
 
 ![imagen](./img/013.png)
+
+Especificamos la ubicacion que queremos para ellos.
+
+![imagen](./img/014.png)
+
+Vemos que han sido restaurados con éxito.
+
+![imagen](./img/015.png)
