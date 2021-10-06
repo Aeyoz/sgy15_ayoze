@@ -1,1 +1,0 @@
-# sgy15_ayoze
