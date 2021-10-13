@@ -1,75 +1,107 @@
-# Encriptado de archivos con Seahorse
+# Gestor de contraseñas y autentificacion de doble factor con Bitwarden y Authy.
 
-##Instalaciod
+## Gestor de contraseñas con Bitwarden
 
-Empezamos instalando Seahorse, pero vemos que tenemos la versión mas reciente ya instalada
+Empezamos creando una cuenta en Bitwarden
 
 ![](./img/001.png)
 
+Añadimos un servicio del que queremos guardar la contraseña.
+
 ![](./img/002.png)
 
-Procedemos a instalar **seahorse-nautilus**.
+Añadimos la extensión de Bitwarden a nuestro navegador.
 
 ![](./img/003.png)
 
-Abrimos **Seahorse**
-
-![](./img/017.png)
-
-Vemos que hay 4 categorías. Arriba a la derecha hay un simbolo de ``+``, o pulsamos y se nos abre un panel con distintas opciones.
+Probamos que nos rellena la contraseña de manera automática.
 
 ![](./img/004.png)
 
-En este panel debemos de seleccionar la primera opción para crear una clave que nos encripte los archivos.
-
 ![](./img/005.png)
 
-Rellenamos los datos necesarios para tener una clave completa.
+## Autentificacion con doble factor con Authy
+
+Nos dirigimos al apartado de seguridad de nuestra cuenta de Google y vamos al apartado de **verificación en 2 pasos**.
 
 ![](./img/006.png)
 
-E inventamos una clave para el encriptado.
+Clicamos en el botón de empezar.
 
 ![](./img/007.png)
 
-Ahora nos encontramos en la pantalla de antes, si quisieramos ver nuestra clave debemos de ir a **Claves GnuPG**.
+Usamos nuestro teléfono para recibir las notificaciones a la hora de iniciar sesión
 
 ![](./img/008.png)
 
-Aqui vemos nuestra clave
+Añadimos un medio de seguridad de acceso a nuestra cuenta.
 
 ![](./img/009.png)
 
-Podemos exportarla por seguridad.
+Activamos la verificación en 2 pasos.
 
 ![](./img/010.png)
 
-## Encriptado de archivos
+Usamos la aplicación de Authy en este paso.
 
-Creamos un archivo **intercambio.txt** que mandaremos a un compañero para que intente desencriptarlo con la clave que generaremos.
+~~~
+DISCLAIMER!!!
+
+En el dispositivo móvil no se han podido sacar capturas de este
+paso por motivos de seguridad y privacidad establecidos por la
+propia aplicación de Authy.
+
+~~~
 
 ![](./img/011.png)
 
-Hacemos click derecho sobre este y vemos que casi al final nos sale una opción para cifrar, pinchamos ahí.
-
 ![](./img/012.png)
-
-Ahora debemos firmar nuestro fichero con la clave PGP que creamos antes.
 
 ![](./img/013.png)
 
-Al usar una frase de paso añadimos un punto más de seguridad a nuestro archivo.
+## Inicion de sesión con Bitwarden y Authy.
+
+Instalamos la aplicación de Bitwarden en el móvil.
+
+~~~
+DISCLAIMER!!!
+
+En el dispositivo móvil no se han podido sacar capturas de este
+paso por motivos de seguridad y privacidad establecidos por la
+propia aplicación de Bitwarden.
+
+~~~
+
+Habilitamos la autentificación de 2 factores, para ello debemos de abrir Authy y escanear el código qr y escribir el código que nos genere en la ultima caja de texto en ```Iniciar sesión con tu código```, lo activamos.
 
 ![](./img/014.png)
 
-Añadimos la frase de paso.
+Ahora debemos de asegurar la información de nuestra cuenta añadiendo un número de teléfono.
 
 ![](./img/015.png)
 
-Ahora para terminar debemos de escribir nuestra clave de encriptado.
-
 ![](./img/016.png)
 
-## ¿El compañero puede descifrarlo?
+![](./img/017.png)
 
- 
+En el teléfono para acceder a Discord de manera casi que automática configuramos el gestor de contraseñas para que pueda copiar las contraseñas a nuestro portapapeles mientras estamos en la pantalla de inicio de sesión.
+
+![](./img/018.jpg)
+
+Habilitamos Bitwarden y su acceso directo.
+
+![](./img/019.jpg)
+
+![](./img/020.jpg)
+
+Ahora intentamos iniciar sesión en Discord.
+
+![](./img/021.jpg)
+
+Vemos que en el portapapeles hay algo copiado, esto es la contraseña copiada desde Bitwarden, la pegamos y accedemos.
+
+![](./img/022.jpg)
+
+Ahora nos pide un código de 6 dígitos para acceder al fin a nuestra cuenta.
+
+![](./img/023.jpg)

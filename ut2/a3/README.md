@@ -1,37 +1,73 @@
-# Calculo del consumo energético.
+# Encriptado de archivos con Seahorse
 
-## Consumo del SAI en casa.
+##Instalaciod
 
-| Unidades |    Equipos | Consumo |VA(factor 1.4)|
-|----------|------------|---------|--------------|
-| 1        | PC Desktop |  720w   |      -       |
-| 1        |   Monitor  |   24w   |      -       |
-| 1        |  Impresora |   96w   |      -       |
-|     Consumo total     || 840w   |   1176 VA    |
-|             Estimación SAI 80%  |||   2117 VA    |
-|             Estimación SAI 70%  |||   1999 VA    |
-|             Estimación SAI 60%  |||   1882 VA    |
-
-Para este caso particular el SAI a usar que mejor se ajusta a los valores obtenidos es el siguiente:
-
-**https://www.pccomponentes.com/salicru-sps-2000-one-iec-sai-2000va-1200w**
+Empezamos instalando Seahorse, pero vemos que tenemos la versión mas reciente ya instalada
 
 ![](./img/001.png)
 
-## Consumo del SAI en el instituto.
-
-| Unidades |    Equipos | Consumo |VA(factor  1.4)|
-|----------|------------|---------|---------------|
-| 1        | PC Desktop |   190w  |       -       |
-| 1        |   Monitor  |    26w  |       -       |
-||     Consumo total     ||   216w  |    302 VA    |
-||             Estimación SAI 80%  ||   543 VA    |  
-||             Estimación SAI 70%  ||   513 VA    |
-||             Estimación SAI 60%  ||   483 VA    |
-
-
-Para el consumo del puesto de trabajo en clase es mejor tener un SAI más pequeño que el anterior debido a que requiere de menor potencia.
-
-https://www.pccomponentes.com/vertiv-liebert-psp500mt3-230u-sai-500va-300w
-
 ![](./img/002.png)
+
+Procedemos a instalar **seahorse-nautilus**.
+
+![](./img/003.png)
+
+Abrimos **Seahorse**
+
+![](./img/017.png)
+
+Vemos que hay 4 categorías. Arriba a la derecha hay un simbolo de ``+``, o pulsamos y se nos abre un panel con distintas opciones.
+
+![](./img/004.png)
+
+En este panel debemos de seleccionar la primera opción para crear una clave que nos encripte los archivos.
+
+![](./img/005.png)
+
+Rellenamos los datos necesarios para tener una clave completa.
+
+![](./img/006.png)
+
+E inventamos una clave para el encriptado.
+
+![](./img/007.png)
+
+Ahora nos encontramos en la pantalla de antes, si quisieramos ver nuestra clave debemos de ir a **Claves GnuPG**.
+
+![](./img/008.png)
+
+Aqui vemos nuestra clave
+
+![](./img/009.png)
+
+Podemos exportarla por seguridad.
+
+![](./img/010.png)
+
+## Encriptado de archivos
+
+Creamos un archivo **intercambio.txt** que mandaremos a un compañero para que intente desencriptarlo con la clave que generaremos.
+
+![](./img/011.png)
+
+Hacemos click derecho sobre este y vemos que casi al final nos sale una opción para cifrar, pinchamos ahí.
+
+![](./img/012.png)
+
+Ahora debemos firmar nuestro fichero con la clave PGP que creamos antes.
+
+![](./img/013.png)
+
+Al usar una frase de paso añadimos un punto más de seguridad a nuestro archivo.
+
+![](./img/014.png)
+
+Añadimos la frase de paso.
+
+![](./img/015.png)
+
+Ahora para terminar debemos de escribir nuestra clave de encriptado.
+
+![](./img/016.png)
+
+## ¿El compañero puede descifrarlo?
