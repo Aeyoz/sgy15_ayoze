@@ -1,6 +1,6 @@
 # Encriptado de archivos con Seahorse
 
-##Instalaciod
+##Instalación
 
 Empezamos instalando Seahorse, pero vemos que tenemos la versión mas reciente ya instalada
 
