@@ -1,7 +1,7 @@
 
 <center>
 
-# TÍTULO DE LA PRÁCTICA
+# VPN TUNNELING con Wireguard
 
 
 </center>
@@ -11,24 +11,31 @@
 
 ### ÍNDICE
 
-+ [](#id1)
-+ [](#id2)
-+ [](#id3)
-+ [](#id4)
-+ [](#id5)
-
++ [Introducción](#id1)
++ [Objetivos](#id2)
++ [Instalación](#id3)
++ [Ficheros de configuración](#id4)
++ [Captura de la ruta](#id5)
 
 #### ***Introducción***. <a name="id1"></a>
 
+Wireguard es una aplicación tanto de escritorio como de dispositivos móviles que permite la conexión entre servidor, cliente e internet.
+
 #### ***Objetivos***. <a name="id2"></a>
 
-#### ***Material empleado***. <a name="id3"></a>
+El objetivo es crear un túnel con una máquina cliente WINDOWS y una máquina servidor Ubuntu y hacer una captura de la ruta que toman los paquetes para salir a internet.
 
-#### ***Desarrollo***. <a name="id4"></a>
+#### ***Instalación***. <a name="id3"></a>
 
-#### ***Conclusiones***. <a name="id5"></a>
+La instalación de Wireguard es tan sencilla como ejecutar apt -y install wireguard en la terminal de ubuntu.
 
-FICHERO CONF SERVER
+![](./img/001.png)
+
+#### ***Ficheros de configuración***. <a name="id4"></a>
+
+El profesor nos proporcionó varias páginas guiadas que podiamos seguir para realizar la practica, pero al final no usamos casi ningún comando de los allí descritos porque era lo mismo que generar nosotros los ficheros.
+
+Fichero de configuración del servidor:
 
 ```
 [Interface]
@@ -48,10 +55,9 @@ AllowedIPs = 10.0.0.3/32
 
 ```
 
-FICHERO CONF WINDOWS
+Fichero de configuración del cliente de Windows:
 
 ```
-
 [Interface]
 PrivateKey = ADdP9zssI9I1UCF5foz6R2FSRye40Jx3NKOggsfCtWQ=
 ListenPort = 51820
@@ -62,10 +68,9 @@ DNS = 1.1.1.1
 PublicKey = o6JHaYd6rJijSBVy0bD/TosQasK5Bo7yB+FDwFNyl1Y=
 AllowedIPs = 0.0.0.0/0, ::/0
 Endpoint = 172.19.99.214:51820
-
 ```
 
-FICHERO CONFIGURACION UBUNTU CLIENTE
+Fichero de configuración del cliente Ubuntu:
 
 ```
 [Interface]
@@ -77,5 +82,24 @@ PrivateKey = UEG2SFTl2fWy+jGLBoOohNFxIG82iYQImUrZmI7De28=
 PublicKey = o6JHaYd6rJijSBVy0bD/TosQasK5Bo7yB+FDwFNyl1Y=
 AllowedIPs = 0.0.0.0/0, ::/0
 Endpoint = 172.19.99.214:51820
-
 ```
+
+#### ***Captura de la ruta***. <a name="id5"></a>
+
+Para activar los ficheros debemos de habilitarlos con el siguiente comando tanto en el cliente como en el servidor:
+
+* ```wg-quick up wg0```
+
+![](./img/002.png)
+
+Para deshabilitarlos debemos de ejecutar el siguiente:
+
+* ```wg-quick down wg0```
+
+![](./img/003.png)
+
+Habilitamos también el fichero de windows mediante la interfaz gráfica.
+
+Hacemos una traza en windows a google con **tracert www.google.es**
+
+![](./img/004.png)
