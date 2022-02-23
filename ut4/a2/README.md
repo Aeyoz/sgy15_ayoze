@@ -1,6 +1,6 @@
 <center>
 
-# TÍTULO DE LA PRÁCTICA
+# Instalación y configuración de un servidor VPN en windows 2016 server
 
 </center>
 
@@ -15,9 +15,14 @@
 + [Configuración del firewall de windows](#id4)
 + [Configuración del acceso remoto](#id5)
 + [Acceso a VPN](#id6)
+
 #### ***Introducción***. <a name="id1"></a>
 
+Las VPN permiten la conexión a la red de manera segura debido a los protocolos que usan ya que encriptan los datos
+
 #### ***Objetivos***. <a name="id2"></a>
+
+El objetivo es la creación de una vpn funcional en un windows 2016 server.
 
 #### ***Instalación***. <a name="id3"></a>
 
