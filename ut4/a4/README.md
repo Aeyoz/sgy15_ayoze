@@ -14,8 +14,8 @@
 + [Introducción](#id1)
 + [Objetivos](#id2)
 + [Material empleado](#id3)
-+ [](#id4)
-+ [](#id5)
++ [Instalación del servidor Pfsense](#id4)
++ [Configuración](#id5)
 
 
 #### ***Introducción***. <a name="id1"></a>
