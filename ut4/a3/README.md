@@ -98,8 +98,18 @@ Para deshabilitarlos debemos de ejecutar el siguiente:
 
 ![](./img/003.png)
 
-Habilitamos también el fichero de windows mediante la interfaz gráfica.
+Para comprobar que hay conexión entre máquinas debemos ejecutar el comando de wireguard: **wg**.
 
-Hacemos una traza en windows a google con **tracert www.google.es**
+![](./img/005.png)
+
+Habilitamos también el fichero de Windows mediante la interfaz gráfica.
+
+![](./img/006.png)
+
+Hacemos una traza en Windows a google con **tracert www.google.es**
 
 ![](./img/004.png)
+
+Hacemos un traceroute en Ubuntu a Cloudflare con **traceroute 1.1.1.1**.
+
+![](./img/007.png)

@@ -11,10 +11,10 @@
 
 + [Introducción](#id1)
 + [Objetivos](#id2)
-+ [](#id3)
-+ [](#id4)
-+ [](#id5)
-
++ [Instalación](#id3)
++ [Configuración del firewall de windows](#id4)
++ [Configuración del acceso remoto](#id5)
++ [Acceso a VPN](#id6)
 #### ***Introducción***. <a name="id1"></a>
 
 #### ***Objetivos***. <a name="id2"></a>
@@ -79,7 +79,7 @@ Debemos de añadir las siguientes reglas relacionadas con los puertos asociados 
 
 ![](./img/019.png)
 
-
+#### ***Configuración del acceso remoto***. <a name="id5"></a>
 
 Iniciamos el NPS (Network Policy Server).
 
@@ -135,6 +135,8 @@ Vemos un resumen de la directiva.
 
 ![](./img/038.png)
 
+#### ***Acceso a VPN***. <a name="id6"></a>
+
 Vamos a la configuración del windows cliente al apartado de VPN y agregamos una nueva.
 
 ![](./img/039.png)
@@ -174,4 +176,3 @@ En opciones avanzadas usamos el cifrado punto a punto (MPPE).
 Hacemos un traceroute a www.google.es
 
 ![](./img/050.png)
-#### ***Conclusiones***. <a name="id5"></a>
