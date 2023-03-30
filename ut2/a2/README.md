@@ -74,7 +74,7 @@ propia aplicación de Bitwarden.
 
 Habilitamos la autentificación de 2 factores, para ello debemos de abrir Authy y escanear el código qr y escribir el código que nos genere en la ultima caja de texto en ```Iniciar sesión con tu código```, lo activamos.
 
-![](./img/014.png)
+**Por motivos de seguridad no se muestra el código qr**
 
 Ahora debemos de asegurar la información de nuestra cuenta añadiendo un número de teléfono.
 
